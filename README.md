@@ -2,7 +2,8 @@
 
 ## V2 (2025)
 
-This script provides a basic setup for running a Bitcoin solo miner on a Raspberry Pi 4.
+This script provides a basic setup for running a Bitcoin Solo CPU miner on a Raspberry Pi 4 
+with Tailscale and Telegram Bot.
 
 **Intended Environment:**
 - Raspberry Pi OS Lite (64-bit) Debian Bullseye
@@ -57,14 +58,8 @@ tail -f install.log
 
 ## TODO List
 
-- Check bot security
 - Option for solo pool mining (no need for a full node)
-- Option to add/remove watch-only wallet on node
-- Change BTC wallet bot function
-- Flash lights if wallet changes
 - Send alert if external HD is nearly full
-- Send message if BTC mined
-- Change monitored address function
 
 ---
 
