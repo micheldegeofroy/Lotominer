@@ -1,4 +1,4 @@
-Lotominer
+#Lotominer
 Raspberry Pi 4 Solo CPU Bitcoin Miner With Telegram Bot
 
 LotoMiner (aka BTCLOTORPI ) A Full Node CPU Solo Mineral Oil Cooled Bitcoin Miner running on a recycled old Raspberry Pi 4 and powered by an old solar array to power it when the sun shines in effect mining bitcoin with the sun. 
