@@ -1,6 +1,6 @@
-# Lotominer
+Lotominer
 Raspberry Pi 4 Solo CPU Bitcoin Miner With Telegram Bot
-#
+
 LotoMiner (aka BTCLOTORPI ) A Full Node CPU Solo Mineral Oil Cooled Bitcoin Miner running on a recycled old Raspberry Pi 4 and powered by an old solar array to power it when the sun shines in effect mining bitcoin with the sun. 
 
 This type of mining isn’t novel by any means, and in fact it’s a style of mining is called “lottery mining” where contributing to a pool is omitted in favour of attempting to solve the entire block by pure random chance alone in the hopes that if it’s solved, the entire reward will be claimed by the owner of the device alone. 
@@ -56,13 +56,14 @@ EuroMillions:
 Thus wining the lottery is only roughly 48 times more probable per week, cost much more money, profits the government (50% tax) does not support the Bitcoin network.
 
 
-GPIO
-
-
-GPIO READALL
-+-----+-----+-------------------+------+---+---Pi 4B--+---+------+--------------------+-----+-----+
-| BCM | wPi |        Name       | Mode | V | Physical | V | Mode |         Name       | wPi | BCM |
-+-----+-----+-------------------+------+---+----++----+---+------+--------------------+-----+-----+
+###############################
+# GPIO
+###############################
+#
+#  GPIO READALL
+#  +-----+-----+-------------------+------+---+---Pi 4B--+---+------+--------------------+-----+-----+
+#  | BCM | wPi |        Name       | Mode | V | Physical | V | Mode |         Name       | wPi | BCM |
+#  +-----+-----+-------------------+------+---+----++----+---+------+--------------------+-----+-----+
 #  |     |     |             +3.3V |      |   |  1 || 2  |   |      | +5V                |     |     |
 #  |   2 |   8 | GPIO 2    SDA   1 |   IN | 1 |  3 || 4  |   |      | +5V                |     |     |
 #  |   3 |   9 | GPIO 3    SCL   1 |   IN | 1 |  5 || 6  |   |      | GND  0V            |     |     |
