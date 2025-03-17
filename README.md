@@ -2,8 +2,6 @@
 
 ## V2 (2025)
 
-**by Michel de Geofroy**
-
 This script provides a basic setup for running a Bitcoin solo miner on a Raspberry Pi 4.
 
 **Intended Environment:**
