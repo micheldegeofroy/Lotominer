@@ -130,8 +130,10 @@ if (!empty($wallet_address) && !empty($blockonomics_api_key)) {
         }
         a {
             color: green;
-            font-family: courier, monospace;
-            font-weight: bold;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12px;
+            font-weight: normal;
+            text-decoration: none;
         }
         pre {
             margin: 0;
