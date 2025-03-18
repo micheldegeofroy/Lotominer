@@ -1,3 +1,6 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Lotominer</title>
+
 <?php
 // Set the page refresh header before any output.
 $page = $_SERVER['PHP_SELF'];
